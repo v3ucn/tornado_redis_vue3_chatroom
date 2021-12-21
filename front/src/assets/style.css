@@ -1,0 +1,39 @@
+
+body {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    background: #424b4f;
+    color: #fff;
+}
+
+.container {
+
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-flow:column;
+
+  }
+
+  .item_column{
+
+        height:auto;
+        display:flex;
+
+  }
+
+  .left{
+
+      width:30%;
+      height:auto;
+      border:1px solid #fff;
+      padding:20px;
+  }
+
+   .right{
+
+      width:70%;
+      height:auto;
+      border:1px solid #fff;
+      padding:20px;
+  }
+
