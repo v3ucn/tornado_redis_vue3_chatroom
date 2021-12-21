@@ -13,11 +13,24 @@ npm run serve
 访问 http://localhost:8080
 
 
-# 后端 tornado 服务
+# 后端 tornado 服务 同步消费
 
 cd back
 
 pip install tornado==6.1
+
 pip install redis
 
 python3 main.py
+
+# 后端 tornado 服务 异步消费
+
+cd back
+
+pip install tornado==6.1
+
+pip install redis
+
+pip install aioredis
+
+python3 main_aioredis.py
